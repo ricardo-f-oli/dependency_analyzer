@@ -46,5 +46,3 @@ target/test-results/
 
 # Maven cache
 .mvn/timing.properties
-
-.backend-take-home-assessment.md
