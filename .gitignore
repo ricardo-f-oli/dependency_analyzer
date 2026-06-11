@@ -1,0 +1,52 @@
+# Maven Java project .gitignore
+# Generated for: dependency_analyzer
+
+# Build output
+target/
+
+# Maven wrapper (keep the jar but ignore properties)
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+
+# Environment files (keep template example)
+.env.example
+.env.local
+.env.*.local
+
+# IDE specific
+*.iml
+*.ipr
+*.iws
+
+# Temporary files
+*~
+
+# Test output
+target/surefire-reports/
+target/test-results/
+
+# Maven cache
+.mvn/timing.properties
+
+# Data directory (generated files)
+data/events_large.jsonl
+data/snapshot.json

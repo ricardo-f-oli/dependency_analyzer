@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    com.analyzer: DEBUG
+
+app:
+  queue:
+    capacity: 100000
+    consumers: 4
+    producers: 2
+  persistence:
+    snapshot-interval-events: 20000
+    snapshot-file: "data/snapshot.json"
+    wal-file: "data/events.jsonl"
