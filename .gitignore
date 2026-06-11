@@ -47,6 +47,4 @@ target/test-results/
 # Maven cache
 .mvn/timing.properties
 
-# Data directory (generated files)
-data/events_large.jsonl
-data/snapshot.json
+.backend-take-home-assessment.md
